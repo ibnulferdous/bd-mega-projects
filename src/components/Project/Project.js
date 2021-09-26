@@ -2,7 +2,6 @@ import React from 'react';
 import './Project.css';
 
 const Project = (props) => {
-    console.log(props)
     const { name, cost, category, image, start, deadline, status } = props.project;
     return (
         <div className="card">
@@ -14,6 +13,7 @@ const Project = (props) => {
                 <p>Project Started: {start}</p>
                 <p>Deadline: {deadline}</p>
                 <p>Project Status: {status}</p>
+                <button className="card-button" onClick={() => props.handleAddToList(props.project)}>Add to List</button>
             </div>
         </div>
     );
