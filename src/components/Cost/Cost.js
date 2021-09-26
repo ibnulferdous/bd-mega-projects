@@ -4,6 +4,7 @@ import Addeditem from '../Addeditem/Addeditem';
 import './Cost.css';
 
 const Cost = (props) => {
+    // State declaration to convert million into billion
     const [totalText, setTotalText] = useState("0 Million");
     
     let total = 0;
@@ -11,10 +12,10 @@ const Cost = (props) => {
     for (const project of props.addedProjects) {
         total += project.cost
     }
-
+    
     useEffect( () => {
         if(total >= 1000) {
-            const billionConverted = total / 1000;
+            const billionConverted = total / 1000;      // 1000 million = 1 billion
             const newText = billionConverted.toFixed(2) + " Billion";
             setTotalText(newText)
         } else {

@@ -14,6 +14,7 @@ const Projects = () => {
             .then(data => setProjects(data))
     },[]);
 
+    // Event Listeners for button
     const handleAddToList = (project) => {
         if (addedProjects.findIndex(addedProject => addedProject.key === project.key) === -1) {
             const newAddedList = [...addedProjects, project]
@@ -23,6 +24,7 @@ const Projects = () => {
 
     return (
         <div className="projects-container">
+            {/* Project cards Container */}
             <div className="cards-container">
                 {
                     projects.map(project => <Project 
@@ -32,6 +34,7 @@ const Projects = () => {
                     ></Project>)
                 }
             </div>
+            {/* Cost Container */}
             <div className="cost-container">
                 <Cost addedProjects={addedProjects}></Cost>
             </div>
