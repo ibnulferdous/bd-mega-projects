@@ -5,8 +5,8 @@ header {
 }
 
 header h1 {
-    color: #E0DAD1;
-    font-size: 5vw;
+    color: #827b75;
+    font-size: 4vw;
     font-weight: 800;
     text-align: center;
     margin: 0;
@@ -26,7 +26,7 @@ header div {
 
 header div h2 {
     color: #121212;
-    font-weight: 300;
-    font-size: 1.25vw;
+    font-weight: 400;
+    font-size: 1.1vw;
     margin: 0 25px;
 }

@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
+import Addeditem from '../Addeditem/Addeditem';
+import './Cost.css';
 
 const Cost = (props) => {
-    console.log(props);
     const [totalText, setTotalText] = useState("0 Million");
     
     let total = 0;
@@ -12,7 +13,6 @@ const Cost = (props) => {
     }
 
     useEffect( () => {
-        console.log(total);
         if(total >= 1000) {
             const billionConverted = total / 1000;
             const newText = billionConverted.toFixed(2) + " Billion";
@@ -25,9 +25,12 @@ const Cost = (props) => {
 
 
     return (
-        <div>
-            <h2>Project(s) Selected: {props.addedProjects.length}</h2>
+        <div className="cost-body">
+            <h2 className="uppercase">Project(s) Selected: {props.addedProjects.length}</h2>
             <h3>Total Cost: ${totalText}</h3>
+            {
+                props.addedProjects.map(addedItem => <Addeditem key={addedItem.key} addedItem={addedItem}></Addeditem>)
+            }
         </div>
     );
 };

@@ -10,11 +10,11 @@
 }
 
 .card-body {
-    padding: 2% 5% 10%;
+    padding: 2% 6% 10%;
 }
 
 .card-body h3 {
-    font-weight: 400;
+    font-weight: 500;
     margin: 20px 0;
     color: #000000;
 }
@@ -25,11 +25,11 @@
 
 .card-button {
     display: block;
-    padding: 10px 40px;
+    padding: 10px 20px;
     background: #827b75;
     border: 1px solid #827b75;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 2px;
     margin-top: 25px;
     cursor: pointer;
@@ -38,4 +38,9 @@
 .card-button:hover {
     background: #ffffff;
     color: #000000;
+}
+
+.card-button span {
+    display: inline-block;
+    margin-right: 5px;
 }

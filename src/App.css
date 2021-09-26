@@ -10,8 +10,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/*     Utility Classes     */
 .container {
   width: 90%;
   max-width: calc(1500px + 100px);
   margin: 4% auto 5%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold-text {
+  font-weight: 700;
 }
