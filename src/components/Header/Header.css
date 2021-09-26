@@ -1,0 +1,23 @@
+header {
+    padding-top: 50px;
+}
+
+header h1 {
+    color: #E0DAD1;
+    font-size: 5vw;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+}
+
+header div h2 {
+    color: #121212;
+    font-weight: 300;
+    font-size: 1.25vw;
+    margin: 20px 25px 0;
+}

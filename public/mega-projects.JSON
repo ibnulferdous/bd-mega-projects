@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Padma Bridge",
+        "cost": 3650,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2014,
+        "deadline": 2021,
+        "image": "https://www.daily-sun.com/assets/news_images/2020/12/11/padma-bridge.jpg"
+    },
+    {
+        "name": "Padma Rail Link",
+        "cost": 3924,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2016,
+        "deadline": 2024,
+        "image": "https://images.prothomalo.com/prothomalo-english/2021-07/f59b1e03-ffd7-4201-a296-ecb8bf793ff4/prothomalo_bangla_2021_06_5015ae6a_45c2_4947_b206_5ff9e4f91e63_WhatsApp_Image_2021_06_20_at_17_09_56.jpeg"
+    },
+    {
+        "name": "Rooppur Nuclear Power Plant",
+        "cost": 12650,
+        "category": "Power Project",
+        "status": "running",
+        "start": 2017,
+        "deadline": 2025,
+        "image": "https://thefinancialexpress.com.bd/public/uploads/1535029778.jpg"
+    },
+    {
+        "name": "Rampal Coal Power Project",
+        "cost": 5000,
+        "category": "Power Project",
+        "status": "running",
+        "start": 2017,
+        "deadline": 2021,
+        "image": "https://media-eng.dhakatribune.com/uploads/2013/10/rampal.jpg"
+    },
+    {
+        "name": "Matarbari Power Plant",
+        "cost": 4400,
+        "category": "Power Project",
+        "status": "running",
+        "start": 2014,
+        "deadline": 2024,
+        "image": "https://media-eng.dhakatribune.com/uploads/2020/09/matarbari-1599210759295.jpg"
+    },
+    {
+        "name": "Dhaka Metro Rail",
+        "cost": 2820,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2012,
+        "deadline": 2021,
+        "image": "https://thedailynewnation.com/library/1630083528_4.jpg"
+    },
+    {
+        "name": "Karnaphuli Underwater Tunnel",
+        "cost": 2490,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2017,
+        "deadline": 2022,
+        "image": "https://media-eng.dhakatribune.com/uploads/2020/08/tannel-1596455883399.jpg"
+    },
+    {
+        "name": "Chattogram-Cox’s Bazar Railway Link",
+        "cost": 2130,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2018,
+        "deadline": 2022,
+        "image": "https://media-eng.dhakatribune.com/uploads/2017/04/Coxs-Bazar-Station-1.jpg"
+    },
+    {
+        "name": "Matarbari Deep Sea Port",
+        "cost": 2080,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2014,
+        "deadline": 2025,
+        "image": "https://www.theindependentbd.com/assets/news_images/Crying-need.jpg"
+    },
+    {
+        "name": "Dhaka Elevated Expressway",
+        "cost": 1630,
+        "category": "Communication Infrastructure",
+        "status": "running",
+        "start": 2011,
+        "deadline": 2022,
+        "image": "https://thefinancialexpress.com.bd/uploads/1567761643.jpg"
+    }
+]
