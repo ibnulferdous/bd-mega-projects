@@ -1,0 +1,23 @@
+.card {
+    background: #ffffff;
+    grid-column: span 1;
+    height: 100%;
+    border: 1px solid #E0DAD1;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 2% 5% 5%;
+}
+
+.card-body h3 {
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card-body p {
+    margin: 0 0 8px;
+}

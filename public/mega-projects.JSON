@@ -1,5 +1,6 @@
 [
     {
+        "key": "210901",
         "name": "Padma Bridge",
         "cost": 3650,
         "category": "Communication Infrastructure",
@@ -9,6 +10,7 @@
         "image": "https://www.daily-sun.com/assets/news_images/2020/12/11/padma-bridge.jpg"
     },
     {
+        "key": "210902",
         "name": "Padma Rail Link",
         "cost": 3924,
         "category": "Communication Infrastructure",
@@ -18,6 +20,7 @@
         "image": "https://images.prothomalo.com/prothomalo-english/2021-07/f59b1e03-ffd7-4201-a296-ecb8bf793ff4/prothomalo_bangla_2021_06_5015ae6a_45c2_4947_b206_5ff9e4f91e63_WhatsApp_Image_2021_06_20_at_17_09_56.jpeg"
     },
     {
+        "key": "21093",
         "name": "Rooppur Nuclear Power Plant",
         "cost": 12650,
         "category": "Power Project",
@@ -27,6 +30,7 @@
         "image": "https://thefinancialexpress.com.bd/public/uploads/1535029778.jpg"
     },
     {
+        "key": "210904",
         "name": "Rampal Coal Power Project",
         "cost": 5000,
         "category": "Power Project",
@@ -36,6 +40,7 @@
         "image": "https://media-eng.dhakatribune.com/uploads/2013/10/rampal.jpg"
     },
     {
+        "key": "210905",
         "name": "Matarbari Power Plant",
         "cost": 4400,
         "category": "Power Project",
@@ -45,6 +50,7 @@
         "image": "https://media-eng.dhakatribune.com/uploads/2020/09/matarbari-1599210759295.jpg"
     },
     {
+        "key": "210906",
         "name": "Dhaka Metro Rail",
         "cost": 2820,
         "category": "Communication Infrastructure",
@@ -54,6 +60,7 @@
         "image": "https://thedailynewnation.com/library/1630083528_4.jpg"
     },
     {
+        "key": "210907",
         "name": "Karnaphuli Underwater Tunnel",
         "cost": 2490,
         "category": "Communication Infrastructure",
@@ -63,6 +70,7 @@
         "image": "https://media-eng.dhakatribune.com/uploads/2020/08/tannel-1596455883399.jpg"
     },
     {
+        "key": "210908",
         "name": "Chattogram-Cox’s Bazar Railway Link",
         "cost": 2130,
         "category": "Communication Infrastructure",
@@ -72,6 +80,7 @@
         "image": "https://media-eng.dhakatribune.com/uploads/2017/04/Coxs-Bazar-Station-1.jpg"
     },
     {
+        "key": "210909",
         "name": "Matarbari Deep Sea Port",
         "cost": 2080,
         "category": "Communication Infrastructure",
@@ -81,6 +90,7 @@
         "image": "https://www.theindependentbd.com/assets/news_images/Crying-need.jpg"
     },
     {
+        "key": "210910",
         "name": "Dhaka Elevated Expressway",
         "cost": 1630,
         "category": "Communication Infrastructure",

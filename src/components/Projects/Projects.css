@@ -1,0 +1,17 @@
+.projects-container {
+    margin-top: 3%;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.cards-container {
+    grid-column: 1 / span 9;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cost-container {
+    grid-column: span 3;
+}
